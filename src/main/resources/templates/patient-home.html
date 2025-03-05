@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Patient Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Welcome, Patient!</h2>
+    <a th:href="@{/appointments/book}" class="btn btn-primary">Book Appointment</a>
+    <a th:href="@{/medications/list}" class="btn btn-secondary">View Medications</a>
+</div>
+</body>
+</html>
